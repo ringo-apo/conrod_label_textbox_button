@@ -1,0 +1,14 @@
+[package]
+name = "sample_proj"
+version = "0.1.0"
+authors = ["ringo-apo <ringo1625@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.conrod]
+version = "0.53.0"
+features = ["glium", "winit"]
+
+[dependencies]
+find_folder = "*"
